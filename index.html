@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS\index.css">
+    <link rel="icon" href="favicon-32x32.ico">
+    <title>Hermes</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+        <header>
+            <ion-icon class="logo" name="logo-octocat"></ion-icon>
+            <nav class="navigation">
+                <a href="#" class="active">Home</a>
+                <a href="#About">About</a>
+                <a href="#Interface">Interface</a>
+                <a href="#">Credits</a>
+            </nav>
+        </header>
+    
+    <section class="parallax">
+        <img src="drive-download-20230320T174409Z-001\monutain_01.png" id="m1">
+        <img class="t2" src="drive-download-20230320T174409Z-001\trees_02.png" id="t2">
+        <img src="drive-download-20230320T174409Z-001\monutain_02.png" id="m2">
+        <h2 id="text">Hermes the Herald</h2>
+        <img src="drive-download-20230320T174409Z-001\trees_01.png" id="t1">
+        <img class="man" src="drive-download-20230320T174409Z-001\man.png" id="man">
+        <img src="drive-download-20230320T174409Z-001\plants.png" id="plant">
+    </section>
+
+    <a name="About"><section class="sec"></a>
+        <h2>Introduction</h2>
+        <p>
+            This project is a Map of Public Transportation of Jaipur. The idea is to provide an interactive and user-friendly platform that offers information on public transportation systems, including bus and train routes, stops, and schedules. This platform will be a one-stop solution for all your transportation needs and make it easier for you to plan your daily commute. The map feature will provide a visually appealing and immersive experience, allowing you to navigate and explore the transportation network with ease. The hope is to enhance the public transportation experience for commuters and make it more accessible for everyone.<br><br>
+            The website will be able to take in user input as a starting position and the destination of the user and give the route and the public transports available along the way with their respective timings.
+            This will streamline the use of public transport for someone unaware of the routes and available commodities.<br><br>
+        </p>
+        <h2>Motivation</h2>
+        <p>
+            Public transportation is an essential aspect of many people's lives. This project has the potential to make a real difference in the lives of commuters. The idea of creating a user-friendly platform that provides real-time information on public transportation systems has not been looked upon and the current solutions are not very user friendly and accessible.<br><br>
+        </p>
+        <h2>Project Objectives</h2>
+        <p>
+            <ul>
+                <li>
+                Real-time Information: The primary objective of the project is to provide real-time information on public transportation systems, including bus and train routes, stops, and schedules. This will allow commuters to plan their trips more efficiently and avoid any unexpected delays.
+                </li>
+                <br>
+                <li>
+                User-Friendly Experience: The secondary objective is to create a platform that is user-friendly and accessible to everyone. The map , combined with an intuitive interface, will make it easier for commuters to navigate the transportation network and access the information they need.
+                </li>
+            </ul>
+        </p>
+    </section>
+    
+    <a name="Interface"></a><div class="container">
+        <div class="orangeBG">
+        <div class="box" id="box">
+            <div class="box-value">
+                <ion-icon name="train-outline" class="train"></ion-icon>
+                <h2>Find Path</h2>
+                <div class="inputbox">
+                    <ion-icon name="location-outline" class="location"></ion-icon>
+                    <select name="location-outline" id="first-location">
+                        <option>Starting Point</option>
+                        <option>MUJ</option>
+                        <option>Civil-Lines</option>
+                        <option>Badi-Chaupar</option>
+                        <option>Jal-Mahal</option>
+                        <option>Amer-Fort</option>
+                        <option>Jaigarh-Fort</option>
+                    </select>
+                </div>
+                <ion-icon name="swap-vertical-outline" class="swap"></ion-icon>
+                <div class="inputbox">
+                    <ion-icon name="location-outline" class="location"></ion-icon>
+                    <select name="location-outline" id="second-location">
+                        <option>Ending Point</option>
+                        <option>MUJ</option>
+                        <option>Civil-Lines</option>
+                        <option>Badi-Chaupar</option>
+                        <option>Jal-Mahal</option>
+                        <option>Amer-Fort</option>
+                        <option>Jaigarh-Fort</option>
+                    </select>
+                </div>
+                <button class="search" id="search">SEARCH</button>
+            </div>
+        </div>
+        <div>
+            <div id="1" class="routes" >
+                <img src="Transparent\amer fort jaigarh.png" alt="">
+            </div>
+            <div class="routes" id="2">
+                <img src="Transparent\badi chaupar to amer fort.png" alt="">
+            </div>
+            <div class="routes" id="3">
+                <img src="Transparent\badi chaupar to jaigarh fort.png" alt="">
+            </div>
+            <div class="routes" id="4">
+                <img src="Transparent\badi chaupar to jal mahal.png" alt="">
+            </div>
+            <div class="routes" id="5">
+                <img src="Transparent\Civil Lines to amer.png" alt="">
+            </div>
+            <div class="routes" id="6">
+                <img src="Transparent\civil lines to badi chaupar.png" alt="">
+            </div>
+            <div class="routes" id="7">
+                <img src="Transparent\Civil Lines to jaigarh.png" alt="">
+            </div>
+            <div class="routes" id="8">
+                <img src="Transparent\Civil Lines to jal mahal.png" alt="">
+            </div>
+            <div class="routes" id="9">
+                <img src="Transparent\jal mahal to amer fort.png" alt="">
+            </div>
+            <div class="routes" id="10">
+                <img src="Transparent\jal mahal to jaigarh fort.png" alt="">
+            </div>
+            <div class="routes" id="11">
+                <img src="Transparent\Manipal To Amer fort.png" alt="">
+            </div>
+            <div class="routes" id="12">
+                <img src="Transparent\Manipal to badi chaupar.png" alt="">
+            </div>
+            <div class="routes" id="13">
+                <img src="Transparent\Manipal To civil Lines.png" alt="">
+            </div>
+            <div class="routes" id="14">
+                <img src="Transparent\Manipal to Jaigarh.png" alt="">
+            </div>
+            <div class="routes" id="15">
+                <img src="Transparent\Manipal To Jal Mahal.png" alt="">
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <script src="JS\index.js"></script>
+</body>
+</html>
