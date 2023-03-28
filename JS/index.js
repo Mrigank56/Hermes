@@ -147,6 +147,9 @@ search.addEventListener("click",()=>{
         var element = document.getElementById("1");
         element.style.opacity = "1";
     }
+    else if((x>0&&y>0)&&x==y){
+        alert("Please enter different values")
+    }
 })
 
 
