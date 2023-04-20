@@ -152,4 +152,25 @@ search.addEventListener("click",()=>{
     }
 })
 
+const http = new XMLHttpRequest()
+
+document.querySelector("#share").addEventListener
+("click",()=>{
+    findMyCoordinates()
+})
+var x
+var y
+function findMyCoordinates(){
+    if(navigator.geolocation){
+        navigator.geolocation.getCurrentPosition
+        ((position) => {
+            x=position.coords.latitude
+            y=position.coords.longitude
+        })
+    }
+    else{
+        alert("Geolocation is not supported by your browser")
+    }
+}
+
 
